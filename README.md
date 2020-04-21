@@ -1,6 +1,8 @@
 
 # Capstone Project for my FEND course of Udacity.
 
+My custom travel app helps you plan your trips. Simply enter the desired trip location &amp; date; My Custom Travel App will display the current weather or weather forecast depending on the trip date and an image of the location using information obtained from external APIs.
+
 ## This project is fetching information from 3 API:
 
 #### Darksky-For Weather
@@ -17,6 +19,16 @@
 
 #### Key of Pixabay for images
 - PIX_KEY=*************************
+
+
+## Additional Features
+
+1. Pull the exact location of both the cities/country.
+2. Pull the exact date with day.
+3. Pull in an image for the country from Pixabay API when enter the location.
+4. Weather Forecast according to the location.
+
+
 
 ## Dependencies:
 To install all the dependencies:
