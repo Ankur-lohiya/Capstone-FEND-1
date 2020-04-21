@@ -10,13 +10,13 @@
 ### Fill the .env file with API keys:
 
 #### Key of DarkSky Weather API
-DS_KEY=*****************
+- DS_KEY=*****************
 
 #### Username of Geoname API
-GEO_USERNAME=**********************
+- GEO_USERNAME=**********************
 
 #### Key of Pixabay for images
-PIX_KEY=*************************
+- PIX_KEY=*************************
 
 ## Dependencies:
 To install all the dependencies:
