@@ -33,11 +33,18 @@ text-align:center;
             height:30px;
             margin-bottom: 10px;
             border-radius:10px;
-            background-color:#383761;
+            background-color:#ecf0f1;
             text-align:center;
-        }
-        input:focus{
-        outline:none;
+            font-weight:bolder;
+
+            &:focus{
+            outline:none;
+            }
+
+            &[type=submit]:hover{
+               transform:scale(1.2);
+            }
+
         }
 
         .shdate {
