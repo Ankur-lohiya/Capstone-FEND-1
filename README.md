@@ -24,6 +24,7 @@ My custom travel app helps you plan your trips. Simply enter the desired trip lo
 ## Additional Features
 
 1. Pull the exact location of both the cities/country.
+2. Pull the country code of both the locations.
 2. Pull the exact date with day.
 3. Pull in an image for the country from Pixabay API when enter the location.
 4. Weather Forecast according to the location.

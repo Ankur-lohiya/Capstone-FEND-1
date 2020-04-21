@@ -3,8 +3,14 @@ $font_sub: 'Roboto', sans-serif;
 
 body {
     header {
-        font: 100% $font_main;
+        font: 30px $font_main;
     	text-align:center;
         font-weight: bolder;
+        background-color:rgba(0,0,0,0.2);
+        margin-bottom:10px;
+        transition:ease 0.2s all;
+        &:hover{
+        		font-size:40px;
+        }
     }
 }
