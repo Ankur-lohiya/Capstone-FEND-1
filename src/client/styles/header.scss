@@ -1,0 +1,10 @@
+$font_main: 'Inria Serif', serif;
+$font_sub: 'Roboto', sans-serif;
+
+body {
+    header {
+        font: 100% $font_main;
+    	text-align:center;
+        font-weight: bolder;
+    }
+}

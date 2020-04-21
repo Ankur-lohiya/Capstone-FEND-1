@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FEND Travel Planner</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Inria+Serif|Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app">
+    <header>
+      <h1>Travel Planner</h1>
+    </header>
+    <main>
+      <label for="start">From</label>
+      <input type="text" id="from">
+      <label for="destination">To</label>
+      <input type="text" id="to">
+      <label for="tripdate">Date</label>
+      <div id="dateCont">
+        <input class="shdate" type="text" id="day">
+        <span>-</span>
+        <input class="shdate" type="text" id="month">
+        <span>-</span>
+        <input class="lodate" type="text" id="year">
+      </div>
+      <input type="submit" id="generate">
+    </main>
+    <aside>
+      <h3>API Used:</h3>
+      <span>Geolocation</span>
+      <span>Pixabay</span>
+      <span>WeatherBit</span>
+    </aside>
+    <footer>
+      <span>Made By:</span><br>
+      <span>&copy Ujjawal Joshi</span>
+    </footer>
+  </div>
+  <script>
+    // Check that service workers are supported
+    if ('serviceWorker' in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js');
+        });
+    }
+</script>
+</body>
+
+</html>
